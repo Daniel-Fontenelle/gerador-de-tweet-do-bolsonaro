@@ -54,5 +54,5 @@ const Footer = () => (
 		</Warning>
 	</div>
 );
-
+<div class="sharethis-inline-reaction-buttons"></div>
 export default Footer;
