@@ -27,6 +27,7 @@ const Follow = styled.button`
 
 const Header = () => (
 	<StyledHeader>
+	<div class="sharethis-inline-reaction-buttons"></div>
 		<Person />
 		<Follow>Seguir</Follow>
 	</StyledHeader>
