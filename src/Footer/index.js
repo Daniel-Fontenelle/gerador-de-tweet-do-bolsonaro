@@ -51,6 +51,7 @@ const Footer = () => (
 		</Wrapper>
 		<Warning>
 			Esse tweet foi gerado com o <i>Gerador de Tweet do Bolsonaro</i>, e não é necessariamente verdadeiro
+	
 		</Warning>
 	<div class="sharethis-inline-reaction-buttons"></div>
 	</div>
