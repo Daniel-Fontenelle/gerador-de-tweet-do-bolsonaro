@@ -38,6 +38,13 @@ const Warning = styled.div`
 	color: #657786;
 `;
 
+const Curtir = styled.div`
+	text-align: center;
+	font-size: 0.7em;
+	position: absolute;
+	width: calc(100% - 70px);
+	color: #657786;
+`;
 const Footer = () => (
 	<div>
 		<Wrapper>
@@ -53,9 +60,9 @@ const Footer = () => (
 			Esse tweet foi gerado com o <i>Gerador de Tweet do Bolsonaro</i>, e não é necessariamente verdadeiro
 	
 		</Warning>
-	<div>
-	<div>
-	<div class="sharethis-inline-reaction-buttons"></div>
+	        <Curtir>
+	                <div class="sharethis-inline-reaction-buttons"></div>
+	        </Curtir>
 	<div>
 );
 export default Footer;
